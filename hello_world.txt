@@ -1,0 +1,2 @@
+Was told to add some text and here I am to add some text
+Always remember to save THEN you can git add . and all that good stuff
