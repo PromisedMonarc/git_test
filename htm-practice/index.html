@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title> My First Website</title>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> My First Website</title>
+    </head>
 
-<body>
+    <body>
     <h1>Introduction</h1>
         <p>first webpage</p>
         <p>Hey I'm building my very first webpage</p>
@@ -13,5 +13,37 @@
         <p> <strong>I've decided I'll be doing no such thing</strong></p>
         <p>To embolden is <strong>Strong</strong> and then for italics it is <em>em</em></p>
         <p>For example <strong>I am a stronk boi</strong>, and <em>I am an emo dude</em>.</p>
-</body>
+
+    <h1>Time to make a list</h1>
+        <p>First up to make a list it is 'ul' for unordered list then we have 'ol' for a ordered list, each item in the list uses the element 'li'. Stay with me now</p>
+        <h2>Unordered List</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        <h2>Ordered List</h2>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        <p>So one adds numbers and the other bullet points</p>
+    <h1>Links and Images time baby!</h1>
+        <p>Using the 'a' element allows to anchor links with whatever name, however that name needs to be referenced with 'href' (hypertext referenc), but most times a value will be needed, we'll get to that in time.</p>
+        <p>The href comes right after the 'a' and then you link the specific site and then you can name what it is on the html document like so</p>
+        <a href="https://puddle.farm/player/240710223701005057/EL">My Elphelt rating update</a>
+        <p>And if we dont want the link to open on the same tab and instead open in a fresh tab we add <strong>'target=blank'</strong> and for security we add <strong>'rel=noopener noreferrer</strong></p>
+        <a href="https://puddle.farm/player/240710223701005057/SI" target="_blank" rel="noopener noreferrer">My Sin rating update</a>
+        <p>Now to link to a local html document to make a webpage, this one is named about. It is still the same anchor process but this time instead of the URL we use the complete file name in this case "about.html"</p>
+        <a href="about.html">About</a>
+        <h3>Time for Images baby!</h3>
+            <p>Just use the 'img' element the same way you would with the 'a' everything is type in before the final sharp bracket. After the img remember to add the "src" which shows the source of the image</p>
+            <img src="./images/Bleach-the-Original-Gotei-13.png">
+            <p>And then to describe the image being shown you can add the 'alt' element after sourcing the image</p>
+            <img src="./images/Bleach-the-Original-Gotei-13.png" alt="The orginal Original Gotei 13">
+            <!--I dont know how to make the alt show, I'll make sure to get some help... maybe research will do-->
+            <p>Then you can also add the dimensions to the sourced image by adding a 'height' and 'width' tag</p>
+            <img src="./images/Bleach-the-Original-Gotei-13.png" height="350" width="50%" alt="Image is 350 height and 50% width">
+    </body>
 </html>
