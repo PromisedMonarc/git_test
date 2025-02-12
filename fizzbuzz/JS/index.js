@@ -1,5 +1,7 @@
 let answer = parseInt(prompt("please enter the number you would like to FizzBuzz up to: "));
 
+console.log("test")
+
 for(let i = 1; i <= answer; i++) {
     if(i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
@@ -11,3 +13,4 @@ for(let i = 1; i <= answer; i++) {
         console.log(i);
     }
 }
+
