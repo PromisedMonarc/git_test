@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JaJanKen</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div id="choices">
-        <button onclick="PlayGame('Rock')">Rock</button>
-        <button onclick="PlayGame('Paper')">Paper</button>
-        <button onclick="PlayGame('Scissors')">Scissors</button>
+    <h1>Rock  -  Paper  - Scissors</h1>
+    <div class="choices">
+        <button onclick="PlayGame('rock')">🪨</button>
+        <button onclick="PlayGame('paper')">📄</button>
+        <button onclick="PlayGame('scissors')">✂️</button>
     </div>
     
     <div id="playerChoice">Player:</div>
 
     <div id="compChoice">Computer:</div>
 
-    <div id="resultsDisplay">Results:</div>
+    <div id="resultsDisplay"></div>
 
     <script src="JS/index.js"></script>
 </body>
